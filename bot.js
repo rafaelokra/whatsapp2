@@ -42,7 +42,7 @@ function start(client) {
       delete estadoUsuario[sender];
 
       await client.sendText(
-        "@c.us",
+        "557192724383@c.us",
         `📅 *Novo agendamento recebido:*\n\n${msg}\n\n📲 Cliente: ${sender}`
       );
 
